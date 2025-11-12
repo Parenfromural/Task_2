@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.AuthRegisterTest" time="6.916" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yaroslavvotyakov/Task-2/target/test-classes:/Users/yaroslavvotyakov/Task-2/target/classes:/Users/yaroslavvotyakov/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.15.0/maven-plugin-annotations-3.15.0.jar:/Users/yaroslavvotyakov/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/yaroslavvotyakov/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/yaroslavvotyakov/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/yaroslavvotyakov/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/yaroslavvotyakov/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/yaroslavvotyakov/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/yaroslavvotyakov/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/yaroslavvotyakov/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/yaroslavvotyakov/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yaroslavvotyakov/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/yaroslavvotyakov/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yaroslavvotyakov/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-junit4/2.25.0/allure-junit4-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-junit5/2.25.0/allure-junit5-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-junit-platform/2.25.0/allure-junit-platform-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-rest-assured/2.25.0/allure-rest-assured-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-attachments/2.25.0/allure-attachments-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Yekaterinburg"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/yaroslavvotyakov/Task-2/target/surefire/surefirebooter-20251112231324563_3.jar /Users/yaroslavvotyakov/Task-2/target/surefire 2025-11-12T23-13-24_407-jvmRun1 surefire-20251112231324563_1tmp surefire_0-20251112231324563_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yaroslavvotyakov/Task-2/target/test-classes:/Users/yaroslavvotyakov/Task-2/target/classes:/Users/yaroslavvotyakov/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.15.0/maven-plugin-annotations-3.15.0.jar:/Users/yaroslavvotyakov/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/yaroslavvotyakov/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/yaroslavvotyakov/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/yaroslavvotyakov/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/yaroslavvotyakov/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/yaroslavvotyakov/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:/Users/yaroslavvotyakov/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar:/Users/yaroslavvotyakov/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/yaroslavvotyakov/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yaroslavvotyakov/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/yaroslavvotyakov/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/yaroslavvotyakov/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-junit4/2.25.0/allure-junit4-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-java-commons/2.25.0/allure-java-commons-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-model/2.25.0/allure-model-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-test-filter/2.25.0/allure-test-filter-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-junit5/2.25.0/allure-junit5-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-junit-platform/2.25.0/allure-junit-platform-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-rest-assured/2.25.0/allure-rest-assured-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/io/qameta/allure/allure-attachments/2.25.0/allure-attachments-2.25.0.jar:/Users/yaroslavvotyakov/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:"/>
+    <property name="allure.results.directory" value="/Users/yaroslavvotyakov/Task-2/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yaroslavvotyakov"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yaroslavvotyakov/Task-2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/yaroslavvotyakov/Task-2/target/surefire/surefirebooter-20251112231324563_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.26+4-LTS"/>
+    <property name="user.name" value="yaroslavvotyakov"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.1.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.26.4.1"/>
+    <property name="localRepository" value="/Users/yaroslavvotyakov/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/sq/sd1nzjrn1f17hd04wdc_gm340000gn/T/"/>
+    <property name="java.version" value="11.0.26"/>
+    <property name="user.dir" value="/Users/yaroslavvotyakov/Task-2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/yaroslavvotyakov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.26+4-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="createUniqueUser_success" classname="tests.AuthRegisterTest" time="2.604">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 12 Nov 2025 18:14:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 374
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MTRjZTcwOTg0MjcwMDAxYmRmZTA5YiIsImlhdCI6MTc2Mjk3MTI0OCwiZXhwIjoxNzYyOTcyNDQ4fQ.HM3DlHRVOZmmVqWHkkndmX19HwlbBhfqhp848vhS0eo
+ETag: W/"176-UP47+09sxdjMp8zTSbeFFDP2438"
+
+{
+    "success": true,
+    "user": {
+        "email": "albertine.thompson@yahoo.com",
+        "name": "Nicolas"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MTRjZTcwOTg0MjcwMDAxYmRmZTA5YiIsImlhdCI6MTc2Mjk3MTI0OCwiZXhwIjoxNzYyOTcyNDQ4fQ.HM3DlHRVOZmmVqWHkkndmX19HwlbBhfqhp848vhS0eo",
+    "refreshToken": "85a4e885fb49ebe44ef304b61579ea3026b4543d1a3ec064a401404ae769e73a9316baaf99aea417"
+}
+Delete user response status: 202
+Delete user response body: {"success":true,"message":"User successfully removed"}
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_missingField_shouldFail" classname="tests.AuthRegisterTest" time="2.041">
+    <system-out><![CDATA[HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 12 Nov 2025 18:14:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 74
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4a-EmWdisR78lCFKIQWVZ3yQkk5Ixs"
+
+{
+    "success": false,
+    "message": "Email, password and name are required fields"
+}
+Delete user response status: 202
+Delete user response body: {"success":true,"message":"User successfully removed"}
+]]></system-out>
+  </testcase>
+  <testcase name="createExistingUser_shouldFail" classname="tests.AuthRegisterTest" time="2.237">
+    <system-out><![CDATA[HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 12 Nov 2025 18:14:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 49
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"31-WKEMg8zALB1Ko0WjUHi/6RBGHVc"
+
+{
+    "success": false,
+    "message": "User already exists"
+}
+Delete user response status: 202
+Delete user response body: {"success":true,"message":"User successfully removed"}
+]]></system-out>
+  </testcase>
+</testsuite>
